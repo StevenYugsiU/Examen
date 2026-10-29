@@ -1,0 +1,23 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "examen semana 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "nodemon index.js"
+  },
+  "author": "Steven Yugsi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8",
+    "validator": "^13.15.35"
+  }
+}
